@@ -46,7 +46,7 @@ const app = express();
 app.set('view engine','hbs');
 app.get("/home",(req,res)=>{
     res.render("home",{
-        username:"Krishna",
+        username:"Harsh Oberoi",
     })
 })
 
@@ -60,11 +60,11 @@ app.get("/users",(req,res)=>{
 
         people:[
             {
-                username:"himansh",
+                username:"harsh",
                 age:20
             },
             {
-                username:"mahajan",
+                username:"krishna",
                 age:21
             }
         ]
