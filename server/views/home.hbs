@@ -6,7 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my Home page</h1>
-    {{username}}
+    {{!-- <h1>This is my Home page</h1>
+    {{username}} --}}
+
+    <div>
+        <form action="/profile" method="post" enctype="multipart/form-data">
+        <input type="file" name="avatar" />
+  <input type="submit" value="Upload">
+ 
+</form>
+    </div>
 </body>
 </html>
