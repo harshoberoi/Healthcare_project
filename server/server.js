@@ -42,8 +42,10 @@ const cors = require("cors");
 const dotenv=require("dotenv");
 dotenv.config();
 connectDb();
+
 const app = express();
 app.set('view engine','hbs');
+// app.use("/api/register",require("./routes/userRoutes"));
 app.get("/home",(req,res)=>{
     res.render("home",{
         username:"Harsh Oberoi",
